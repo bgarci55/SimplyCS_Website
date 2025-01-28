@@ -1,0 +1,117 @@
+#root {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  main {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .main-home {
+    margin-top: 5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(10, 40, 28, 0.8) 0%, rgba(0, 0, 0, 0.7) 100%),
+                url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    animation: background-shift 60s infinite linear;
+    overflow: hidden;
+  }
+  
+  .bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation .2s infinite linear;
+    opacity: 1;
+    z-index: -1;
+  
+  }
+  
+  @keyframes bg-animation {
+    0% { transform: translate(0,0) }
+    10% { transform: translate(-5%,-5%) }
+    20% { transform: translate(-10%,5%) }
+    30% { transform: translate(5%,-10%) }
+    40% { transform: translate(-5%,15%) }
+    50% { transform: translate(-10%,5%) }
+    60% { transform: translate(15%,0) }
+    70% { transform: translate(0,10%) }
+    80% { transform: translate(-15%,0) }
+    90% { transform: translate(10%,5%) }
+    100% { transform: translate(5%,0) }
+  }
+  
+  @keyframes background-shift {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+  }
+  
+  @keyframes glitch {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(5px); }
+    20% { transform: translateX(-5px); }
+    30% { transform: translateX(5px); }
+    40% { transform: translateX(-5px); }
+    50% { transform: translateX(0); }
+    100% { transform: translateX(0); }
+  }
+  
+  .glitch-effect {
+    animation: glitch 1.5s infinite;
+  }
+  
+  .crt-effect {
+    transform: perspective(400px) rotateX(10deg);
+  }
+  .light_mode {
+    background-color: white;
+  }
+  .dark_mode {
+    background-color: #111111;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  

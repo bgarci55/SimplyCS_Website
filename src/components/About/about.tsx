@@ -1,13 +1,10 @@
-import './header.css'
-import simplyLogo from '/src/assets/IMG_5051.png'
+import './about.css'
 
 
-
-function Header(){
+function About() {
     return(
         <>
             <nav>
-                <img src={simplyLogo} className="logo" alt="SimplyCS logo"></img>
                 <div className="nav-items">
                     <a href="#home"> Home </a>
                     <a href="#aboutus"> About Us </a>
@@ -18,5 +15,4 @@ function Header(){
     )
 }
 
-
-export default Header
+export default About

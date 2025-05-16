@@ -1,41 +1,36 @@
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    color: #225041;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  #contact {
-    padding: 10px;
-    text-align: left;
-  }
-  
-  #contact .contact-content {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  #contact h2 {
-    font-family: typewriter;
-  }
-  
-  #contact p {
-    text-align: center;
-    font-size: 1.2em;
-    color: rgb(255, 255, 255);
-  }
-  
-  #contact a {
-    color:#fcfcfc;
-  }
-  
-  #contact a:hover {
-    color: #ffffff;
-  }
+footer {
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: red;
+}
+
+#contact {
+  padding: 10px;
+  text-align: left;
+}
+
+#contact .contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+  color: red;
+}
+
+
+#contact p {
+  text-align: center;
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+}
+
+#contact a {
+  color:#fcfcfc;
+}
+
+#contact a:hover {
+  color: #ffffff;
+}

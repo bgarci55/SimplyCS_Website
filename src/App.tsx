@@ -1,5 +1,5 @@
 import './App.css'
-import About from './components/About/about'
+import Home from './components/Home/Home'
 import Layout from "./components/Layout/Layout"
 
 
@@ -7,10 +7,11 @@ function App() {
   return (
     <>
       <Layout>
-        <section id="about"><About /></section>
+        <section id="home"><Home /></section>
       </Layout>
     </>
   )
 }
+
 
 export default App

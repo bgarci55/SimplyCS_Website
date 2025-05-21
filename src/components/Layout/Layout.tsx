@@ -1,6 +1,6 @@
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
-import Test from "../Test/test"
+import Home from "../Home/Home"
 import './layout.css'
 
 
@@ -8,7 +8,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
         <>
             <Header />
-            <Test />
+            <Home />
             <Footer />
         </>
     )

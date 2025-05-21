@@ -1,10 +1,10 @@
 nav {
-    background-color: rgb(59, 59, 56);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .nav-items {
@@ -19,52 +19,34 @@ nav {
       font-size: 16px;
       padding: 10px 15px;
       border-radius: 5px;
-      font-family: typewriter;
       transition: background-color 0.3s ease, color 0.3s ease;
   }
   
   /* Hover effect for navigation links */
   .nav-items a:hover {
       background-color: #555;
-      color: #ffffff;
+      color: #000000;
   }
   
   .nav-items p:hover {
       background-color: #555;
-      color: #ffffff;
+      color: #000000;
   }
 
 
 .logo {
-    height: 6em;
-    padding: 1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 3rem;
+    padding: .5rem;
     will-change: filter;
     transition: filter 300ms;
   }
   .logo:hover {
     filter: drop-shadow(0 0 2em hsla(80, 3%, 53%, 0.667));
-  }
-
-
-/* 
-.clubLogo {
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: lighter;
-    color: rgb(255, 255, 255);
-    letter-spacing: 2px;
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: color 0.3s ease, background-color 0.3s ease;
-    transform-origin: center;
-    will-change: transform;
-  } */
-  
-  .logo:hover {
     color: #8a8a8a;
     animation: bounce 1s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;
   }
+
   
   @keyframes bounce {
     0% {

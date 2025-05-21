@@ -6,7 +6,6 @@ footer {
   left: 0;
   z-index: 10;
   width: 100%;
-  background-color: red;
 }
 
 #contact {
@@ -17,20 +16,19 @@ footer {
 #contact .contact-content {
   max-width: 800px;
   margin: 0 auto;
-  color: red;
 }
 
 
 #contact p {
   text-align: center;
   font-size: 1.2em;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 #contact a {
-  color:#fcfcfc;
+  color:#000000;
 }
 
 #contact a:hover {
-  color: #ffffff;
+  color: #00aeff;
 }

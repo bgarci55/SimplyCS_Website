@@ -2,9 +2,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: .5rem;
   width: 100%;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: sticky;
   }
   
   .nav-items {
@@ -24,7 +25,7 @@ nav {
   
   /* Hover effect for navigation links */
   .nav-items a:hover {
-      background-color: #555;
+      background-color: rgb(255, 220, 174);
       color: #000000;
   }
   
@@ -36,14 +37,13 @@ nav {
 
 .logo {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 3rem;
+    font-size: 2.1rem;
     padding: .5rem;
     will-change: filter;
     transition: filter 300ms;
   }
+  
   .logo:hover {
-    filter: drop-shadow(0 0 2em hsla(80, 3%, 53%, 0.667));
-    color: #8a8a8a;
     animation: bounce 1s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;
   }
 
